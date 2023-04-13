@@ -1,0 +1,58 @@
+map_layout:			.pos	 4	40	.scrollpos 0 0 .tilesize 24 .scale 1.00 .clip 16 665 19 340 .manual_to_follow_delay 10.0 .zoom_key_value 0.25 .hallway_tooltip_y_offset 10 .room_tooltip_y_offset 10
+indicator_layout:	.bounce 5 .up_time 0.1 .down_time 0.1 .max_scale 1.05 .min_scale 0.95
+
+tab_placement:
+.pos 672 252
+.size 48 90
+
+home_button_layout:
+.button_pos 677 24
+.announcement_time 0.1
+.tooltip_offset 1206 28
+.tooltip_width 200
+
+fog_of_war:         .maximum_total_reveal_time 0.1
+                    .blend_colour 0.0 0.0 0.0 -1.0
+                    .blend_scalar 1.0
+                    .time_between_reveals 0.1
+                    .tile_reveal_time 0.1
+                    .tile_reveal_content_reveal_pause 0.0
+                    .tile_content_reveal_time 0.1
+                    .tile_content_reveal_max_scale 1.3
+                    .scouting_text_scale_time 0.1
+
+input:              .min_zoom_scale 0.35
+                    .max_zoom_scale 1.5
+                    .controller_zoom_delta_pressed_scalar 0.15
+                    .controller_zoom_delta_down_scalar_acceleration 0.10
+                    .controller_zoom_delta_down_scalar_acceleration_function easeOutSine
+                    .controller_zoom_delta_down_scalar_acceleration_time 0.5
+                    .controller_scroll_scalar 6.0
+                    .controller_total_map_input_delay 2.5
+                    .controller_move_to_party_scroll_input_delay 0.8
+                    .controller_focus_overlay_threshold 78
+
+input_preview:      .base_pos 5 3
+                    .visible_area_offset 0 0
+                    .visible_area_size 720 360
+                    .transition_offset -100 0
+                    .transition_offset_time 0.1
+                    .transition_offset_easing_function easeOutSine
+                    .transition_fade_time 0.1
+                    .transition_fade_easing_function easeOutSine
+                    .background_offset -4 8
+                    .pan_offset 0 0
+                    .pan_controller_button_offset 10 35
+                    .pan_text_offset 20 18
+                    .zoom_in_offset 0 100
+                    .zoom_in_controller_button_offset 28 40
+                    .zoom_in_text_offset 20 12
+                    .zoom_out_offset 0 160
+                    .zoom_out_controller_button_offset 28 55
+                    .zoom_out_text_offset 20 28
+                    .reset_offset 0 220
+                    .reset_controller_button_offset 28 70
+                    .reset_text_offset 20 42
+                    .tile_focus_scale 1.5
+                    .tile_focus_scale_time 0.1
+                    .tile_focus_scale_easing_function easeOutSine

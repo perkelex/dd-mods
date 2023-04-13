@@ -1,5 +1,5 @@
 {
-    "m_MaxForwardSpeed": 1000.0,
-    "m_MaxReverseSpeed": 1000.0,
-    "time_scale_combat": 5
+    "m_MaxForwardSpeed": 750.0,
+    "m_MaxReverseSpeed": 750.0,
+    "time_scale_combat": 7.5
 }

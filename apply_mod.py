@@ -14,7 +14,7 @@ args = argparser.parse_args()
 config = configparser.ConfigParser()
 config.read("mods.ini")
 
-src = Path(f"./{args.mod_name}").absolute()
-dst = Path(config["GAME"]["Location"])
+src = Path(args.mod_name).absolute()
+dst = Path(config["GAME"]["Location"]).absolute()
 
 shutil.copytree(src, dst, dirs_exist_ok=True)
